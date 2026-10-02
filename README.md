@@ -34,6 +34,7 @@ keys(refs_published.bib) intersection keys(refs_preprints.bib)
 - 仅有 arXiv、bioRxiv、medRxiv、SSRN 或 TechRxiv 等预印本记录，且没有正式出版信息的论文归入 `refs_preprints.bib`。
 - 仅标注为 accepted、under review、submitted，或只有会议日程而没有正式论文集记录的条目，暂归入 `refs_preprints.bib`。
 - `eprint` 字段可能只是出版社提供的 PDF 链接，不能单独作为预印本判据。
+- 同一会议或期刊在三个文献库中必须使用一致的规范名称和字段类型。
 - 书籍、学位论文、技术报告、政策文件和网页资料不是预印本，为保证总库完整性，统一保存在 `refs_published.bib`。
 
 ## 维护方式
